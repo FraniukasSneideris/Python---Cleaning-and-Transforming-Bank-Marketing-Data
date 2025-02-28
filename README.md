@@ -131,4 +131,6 @@ This script demonstrates effective data cleaning and transformation techniques u
 - **DataFrame Structuring**: Organizing the cleaned data into separate DataFrames for easier use and understanding.
 - **File Output**: Saving the cleaned data into separate CSV files for further analysis or integration into other systems.
 
-By using these techniques, we’ve prepared the data for further processing, analysis, or integration into more complex databases or analytics systems. This project highlights essential data wrangling skills that are critical in transforming raw data into a structured and usable format.
+By using these techniques, the data is ready for further processing, analysis, or integration into more complex databases or analytics systems. 
+
+This project highlights essential data wrangling skills that are critical in transforming raw data into a structured and usable format.
