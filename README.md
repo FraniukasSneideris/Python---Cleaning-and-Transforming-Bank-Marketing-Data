@@ -80,6 +80,7 @@ The `credit_default`, `mortgage`, and `campaign_outcome` columns are transformed
 - `"yes"` becomes `1`
 - `"no"` becomes `0`
 - `"unknown"` becomes `0`
+
 The `astype(bool)` method ensures that the columns are explicitly converted to boolean data types.
 #### Converting previous_outcome to Boolean
 ```python
@@ -92,6 +93,7 @@ The `previous_outcome` column is similarly transformed:
 - `"success"` becomes `1`
 - `"nonexistent"` becomes `0`
 - `"failure"` becomes `0`
+
 This conversion also ensures the column has a boolean type.
 #### Creating the last_contact_date Column
 ```python
