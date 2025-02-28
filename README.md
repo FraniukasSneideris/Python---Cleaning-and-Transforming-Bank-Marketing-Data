@@ -125,10 +125,9 @@ Finally, the three cleaned DataFrames are saved as CSV files (`client.csv`, `cam
 
 ## Conclusion
 This script demonstrates effective data cleaning and transformation techniques using Python and the pandas library. Here's an overview of the skills and tools used in this project:
-
-String Manipulation: Replacing characters such as periods and handling missing values (e.g., replacing "unknown" with NaN).
-Categorical Data Transformation: Converting categorical values (e.g., "yes", "no", "unknown") into boolean values for easier analysis.
-Date Handling: Combining year, month, and day columns to create a proper datetime column for analysis.
-DataFrame Structuring: Organizing the cleaned data into separate DataFrames for easier use and understanding.
-File Output: Saving the cleaned data into separate CSV files for further analysis or integration into other systems.
+- **String Manipulation**: Replacing characters such as periods and handling missing values (e.g., replacing "unknown" with NaN).
+- **Categorical Data Transformation**: Converting categorical values (e.g., "yes", "no", "unknown") into boolean values for easier analysis.
+- **Date Handling**: Combining year, month, and day columns to create a proper datetime column for analysis.
+- **DataFrame Structuring**: Organizing the cleaned data into separate DataFrames for easier use and understanding.
+- **File Output**: Saving the cleaned data into separate CSV files for further analysis or integration into other systems.
 By using these techniques, we’ve prepared the data for further processing, analysis, or integration into more complex databases or analytics systems. This project highlights essential data wrangling skills that are critical in transforming raw data into a structured and usable format.
