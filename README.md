@@ -44,7 +44,7 @@ The raw data, `bank_marketing.csv`, contains information on clients, previous ma
 
 ---
 
-## Code
+## The Code
 First of all, we need to import both `pandas` and `numpy`, as we'll need both libraries.
 ```python
 import pandas as pd
