@@ -1,14 +1,10 @@
 # Python---Cleaning-and-Transforming-Bank-Marketing-Data
 
----
-
 ## Project Overview
 
 This project focuses on cleaning and transforming data from a bank's marketing campaign. The data was collected to help the bank understand the effectiveness of their marketing efforts in attracting customers to take out personal loans. The data contains various columns such as client information, campaign statistics, and economic indicators.
 
 The goal is to clean, reformat, and split the data into three separate CSV files so the bank can store and use them for future campaigns in a PostgreSQL database. 
-
----
 
 ## Data Overview
 
