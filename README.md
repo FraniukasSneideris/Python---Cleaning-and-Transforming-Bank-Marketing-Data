@@ -62,12 +62,12 @@ The script starts by loading the dataset into a Pandas DataFrame named `df`.
 for column in ["job", "education"]:
     df[column] = df[column].str.replace(".", "_")
 ```
-The script loops through the `job` and `education` columns, replacing any period (.) characters with an underscore (_). This standardizes the text values in these columns.
+The script loops through the `job` and `education` columns, replacing any period (`.`) characters with an underscore (`_`). This standardizes the text values in these columns.
 #### Handling Missing Data in the education Column
 ```python
 df["education"] = df["education"].replace("unknown", np.nan) 
 ```
-The value "unknown" in the `education` column is replaced with NaN (Not a Number), which is a common way to represent missing or undefined data.
+The value "unknown" in the `education` column is replaced with `NaN`, which is a common way to represent missing or undefined data.
 #### Converting Categorical Columns to Boolean
 ```python
 for column in ["credit_default", "mortgage", "campaign_outcome"]:
