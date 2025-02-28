@@ -45,7 +45,7 @@ The raw data, `bank_marketing.csv`, contains information on clients, previous ma
 ---
 
 ## The Code
-*To read the full script (code without explanation), please refer to "cleaning_and_transforming_data.py" file.*
+*To read the full script (code without explanation), please refer to **"cleaning_and_transforming_data.py" file.***
 
 First of all, we need to import both `pandas` and `numpy`, as we'll need both libraries.
 ```python
